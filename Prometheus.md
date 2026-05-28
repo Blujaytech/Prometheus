@@ -86,7 +86,12 @@ access to prometheus.
 http://public IP:9090
 ```
 
---------------Node-Exporter--------------------------------
+###############
+Node-Exporter
+###############
+
+
+
 * move to /opt directory
 ```
 wget https://github.com/prometheus/prometheus/releases/download/v3.0.1/prometheus-3.0.1.linux-amd64.tar.gz   # download node_exporter as per above starting link.
