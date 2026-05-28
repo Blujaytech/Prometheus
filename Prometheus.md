@@ -44,6 +44,7 @@ systemctl enable prometheus
 vi prometheus.yml
 
 # my global config
+```
 global:
   scrape_interval: 15s
   evaluation_interval: 15s
@@ -69,16 +70,21 @@ scrape_configs:
 
     static_configs:
       - targets: ["172.31.13.167:9100"]
+```
 
-
+```
 systemctl restart prometheus
 
+```
+```
 systemctl status prometheus
+```
 
 access to prometheus.
 
+```
 http://public IP:9090
-
+```
 
 --------------Node-Exporter--------------------------------
 * move to /opt directory
@@ -114,7 +120,7 @@ WantedBy=multi-user.target
 
 ```
 
----
+```
 systemctl restart node_exporter
 ```
 
