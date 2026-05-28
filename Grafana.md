@@ -1,8 +1,8 @@
 Download Grafana GPG Key
 
-'''
+```
 curl -q -o gpg.key https://rpm.grafana.com/gpg.key
-'''
+```
 
 Explanation: Downloads Grafana security key.
 
